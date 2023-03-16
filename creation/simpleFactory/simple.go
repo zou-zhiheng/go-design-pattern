@@ -37,5 +37,5 @@ type helloAPI struct{}
 
 //say hello to name
 func (*helloAPI) Say(name string) string {
-	return fmt.Sprintf("Hello,%s", name)
+	return fmt.Sprintf("Hello ,%s", name)
 }
