@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "go-design-pattern/RabbitMQ"
 
-func main(){
-	fmt.Println("use test")
+func main() {
+	RabbitMQ.Demo()
 }
